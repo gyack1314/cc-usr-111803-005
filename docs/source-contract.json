@@ -1,0 +1,26 @@
+{
+  "roles": [
+    "procurement_page",
+    "trade_receipt"
+  ],
+  "relation_field": "lot",
+  "required_fields": {
+    "procurement_page": [
+      "lot",
+      "session",
+      "page",
+      "state"
+    ],
+    "trade_receipt": [
+      "lot",
+      "session",
+      "receipt_no",
+      "state"
+    ]
+  },
+  "source_identity": [
+    "kind",
+    "id",
+    "revision"
+  ]
+}

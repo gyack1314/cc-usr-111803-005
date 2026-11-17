@@ -1,8 +1,9 @@
 {
   "kind": "trade_receipt",
-  "id": "trade_receipt-B",
+  "id": "trade_receipt-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "pending"
+  "lot": "lot-7",
+  "session": "auction-A",
+  "receipt_no": "R-7",
+  "state": "accepted"
 }

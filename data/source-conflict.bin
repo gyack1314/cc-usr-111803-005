@@ -2,7 +2,9 @@
   "kind": "procurement_page",
   "id": "procurement_page-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "corrected-copy"
+  "lot": "lot-7",
+  "session": "auction-A",
+  "page": 1,
+  "state": "intent",
+  "variant": "conflicting-copy"
 }
