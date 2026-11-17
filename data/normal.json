@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://local-source-005.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-005.example.test/records/procurement_page-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 157,
+        "sha256": "ae70edf54c4a0e0828adeaf1c0e2dcb3cfefcf916956cc8d09c85cb4eefd5b09"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-005.example.test/records/trade_receipt-B",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-2.bin",
+        "status": 200,
+        "bytes": 149,
+        "sha256": "567245735cf71b2ab7d895c7e8ca21e95ad166be01e3003ebbf6b37fdaf1b4be"
+      }
+    }
+  ]
+}
