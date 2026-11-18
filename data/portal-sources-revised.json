@@ -1,9 +1,0 @@
-{
-  "sources": [
-    {
-      "scope": "采购场次 B",
-      "kind": "trade_receipt",
-      "required": true
-    }
-  ]
-}
