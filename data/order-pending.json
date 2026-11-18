@@ -1,0 +1,9 @@
+{
+  "allowed_origins": ["https://local-source-005.example.test"],
+  "steps": [],
+  "sources": [
+    {"url":"https://local-source-005.example.test/records/procurement_page-PO-7","kind":"procurement_page","required":true,"expected_revision":"v2"},
+    {"url":"https://local-source-005.example.test/records/trade_receipt-R-A","kind":"trade_receipt","required":true,"expected_revision":"v2"},
+    {"url":"https://local-source-005.example.test/records/trade_receipt-R-B","kind":"trade_receipt","required":true,"expected_revision":"v1"}
+  ]
+}

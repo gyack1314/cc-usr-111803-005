@@ -1,0 +1,11 @@
+{
+  "kind": "procurement_page",
+  "id": "procurement_page-PO-7",
+  "revision": "v1",
+  "lot": "lot-7",
+  "session": "采购场次 A",
+  "page": 1,
+  "state": "open",
+  "order_id": "PO-7",
+  "heads_requested": 100
+}
