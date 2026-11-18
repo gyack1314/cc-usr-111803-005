@@ -3,7 +3,7 @@
   "id": "procurement_page-A",
   "revision": "v1",
   "lot": "lot-7",
-  "session": "auction-A",
+  "session": "采购场次 A",
   "page": 1,
   "state": "intent"
 }

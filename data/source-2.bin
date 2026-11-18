@@ -3,7 +3,7 @@
   "id": "trade_receipt-A",
   "revision": "v1",
   "lot": "lot-7",
-  "session": "auction-A",
+  "session": "采购场次 A",
   "receipt_no": "R-7",
   "state": "accepted"
 }
