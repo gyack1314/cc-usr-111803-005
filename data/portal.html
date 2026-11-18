@@ -1,13 +1,14 @@
-<!doctype html><html lang="zh"><meta charset="utf-8"><title>门店演练页</title>
-<body><h1>场次资料</h1><button type="button" id="switch">切换</button>
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>收购记录演练页</title>
+<body><h1>收购记录资料</h1><button type="button" id="switch">切换</button>
 <div id="card">意向批次 A</div><pre id="state"></pre>
 <script>
-let state={scope:"采购场次 A",card_scope:"采购场次 A",phase:'loaded'};
+let state={"scope": "采购场次 A", "card_scope": "采购场次 A", "phase": "loaded", "card": {"kind": "procurement_page", "id": "procurement_page-A", "revision": "v1", "lot": "lot-7", "session": "auction-A", "page": 1, "state": "intent"}};
+const next={"scope": "采购场次 B", "card_scope": "采购场次 B", "phase": "loaded", "card": {"kind": "trade_receipt", "id": "trade_receipt-A", "revision": "v2", "lot": "lot-7", "session": "auction-A", "receipt_no": "R-7", "state": "accepted"}};
 const show=()=>document.querySelector('#state').textContent=JSON.stringify(state);
 show();
 document.querySelector('#switch').onclick=()=>{
-  state.scope="采购场次 B"; state.phase='pending'; show();
-  setTimeout(()=>{state.card_scope=state.scope; state.phase='loaded';
+  state.scope=next.scope; state.phase='pending'; show();
+  setTimeout(()=>{state=next;
     document.querySelector('#card').textContent="成交回执 B"; show();},300);
 };
 </script></body></html>
