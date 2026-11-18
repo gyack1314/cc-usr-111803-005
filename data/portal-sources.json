@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "scope": "采购场次 A",
+      "kind": "procurement_page",
+      "required": true
+    },
+    {
+      "scope": "采购场次 B",
+      "kind": "trade_receipt",
+      "required": true
+    }
+  ]
+}
