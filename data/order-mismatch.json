@@ -1,0 +1,11 @@
+{
+  "allowed_origins": ["https://local-source-005.example.test"],
+  "steps": [
+    {"request":{"method":"GET","url":"https://local-source-005.example.test/records/trade_receipt-R-C","body_sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"response":{"file":"source-receipt-c-lotmismatch.bin","status":200,"bytes":220,"sha256":"adb1a97733c2a12d9d9c4fa3ee2a28c6ce74aa58c7f78a64f70060185ed58aa4"}},
+    {"request":{"method":"GET","url":"https://local-source-005.example.test/records/trade_receipt-R-D","body_sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},"response":{"file":"source-receipt-d-sessionmismatch.bin","status":200,"bytes":220,"sha256":"24331db34ddf1fa6f297c3cc48e6eec2e3c8d2384218cc1b2bcd71dd466b3be5"}}
+  ],
+  "sources": [
+    {"url":"https://local-source-005.example.test/records/trade_receipt-R-C","kind":"trade_receipt","required":true,"expected_revision":"v1"},
+    {"url":"https://local-source-005.example.test/records/trade_receipt-R-D","kind":"trade_receipt","required":true,"expected_revision":"v1"}
+  ]
+}

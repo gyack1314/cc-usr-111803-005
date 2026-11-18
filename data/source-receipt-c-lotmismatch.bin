@@ -1,0 +1,11 @@
+{
+  "kind": "trade_receipt",
+  "id": "trade_receipt-R-C",
+  "revision": "v1",
+  "lot": "lot-9",
+  "session": "采购场次 A",
+  "receipt_no": "R-C",
+  "state": "accepted",
+  "order_id": "PO-7",
+  "heads_received": 25
+}
